@@ -34,13 +34,13 @@ class TrainVector:
     '''训练主函数'''
     def test_main(self):
         # 测试字向量
-        self.test_model(self.token_embedding)
+        # self.test_model(self.token_embedding)
         # 测试依存向量
-        self.test_model(self.dep_embedding)
+        # self.test_model(self.dep_embedding)
         # 测试拼音向量
-        self.test_model(self.pinyin_embedding)
+        # self.test_model(self.pinyin_embedding)
         # 测试词性向量
-        self.test_model(self.postag_embedding)
+        # self.test_model(self.postag_embedding)
         # 测试词向量
         self.test_model(self.word_embedding)
         return
