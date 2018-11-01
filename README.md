@@ -1,5 +1,5 @@
 # ChineseEmbedding
-Chinese Embedding collection incling token ,postag ,pinyin,dependency,word embedding.中文自然语言处理向量合集,包括字向量,拼音向量,词向量,词性向量,依存关系向量.共5种类型的向量.挺有意思.
+Chinese Embedding collection incling token ,postag ,pinyin,dependency,word embedding.中文自然语言处理向量合集,包括字向量,拼音向量,词向量,词性向量,依存关系向量.共5种类型的向量.
 
 # 项目简介
 目前不同于one-hot表示的稠密向量在常见的NLP任务中运用的越来越广,而目前开源的向量资源还比较单一,只有中文和其他语言的词向量.本项目想弥补这一缺陷.
@@ -24,8 +24,8 @@ Chinese Embedding collection incling token ,postag ,pinyin,dependency,word embed
 # 测试方法
 本测试较为简单,直接使用语义最近的语言单元作为检验
 # 代码目录
-train_vector.py: 向量训练脚本
-test_vector.py: 向量测试脚本
+train_vector.py: 向量训练脚本  
+test_vector.py: 向量测试脚本  
 
 # 结果展示
 
@@ -109,11 +109,11 @@ test_vector.py: 向量测试脚本
         ('探索', 0.5987343788146973),('技术革新', 0.5949685573577881)
 
 # 总结
-1,本项目完成了中文五种语言单位的向量训练.
-2,从以上可以看出,词和字向量的效果看起来还不错.
-3,依存向量,依存向量中可以看出,ATT作为定中关系,在依存关系中属于定中结构,COO(联合),ADV(状中)的相似度要比主谓SBV,动宾VOB的相似度要高.另外,作为介宾的POB,相似的有IOB,DBL,FOB,这些关系均与宾语成分相关.
-4,拼音向量,从wo,guo的拼音相似拼音来看,我们可以看到,这种相似的拼音更像是一种搭配,很有意思.
-5,词性向量,从a,n的相似词性来看,也似乎更像是一种搭配现象,或许有更好的解释..
-4,总之,向量性能的好坏,需要在实际的NLP任务中运用检验,这个是后续需要进行的工作.
+1,本项目完成了中文五种语言单位的向量训练.  
+2,从以上可以看出,词和字向量的效果看起来还不错.  
+3,依存向量,依存向量中可以看出,ATT作为定中关系,在依存关系中属于定中结构,COO(联合),ADV(状中)的相似度要比主谓SBV,动宾VOB的相似度要高.另外,作为介宾的POB,相似的有IOB,DBL,FOB,这些关系均与宾语成分相关.  
+4,拼音向量,从wo,guo的拼音相似拼音来看,我们可以看到,这种相似的拼音更像是一种搭配,很有意思.(词性参照jieba分词词性对照表)    
+5,词性向量,从a,n的相似词性来看,也似乎更像是一种搭配现象,或许有更好的解释..  
+4,总之,向量性能的好坏,需要在实际的NLP任务中运用检验,这个是后续需要进行的工作.  
 
 If any question about the project or me ,see https://liuhuanyong.github.io/
