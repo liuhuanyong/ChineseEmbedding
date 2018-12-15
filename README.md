@@ -116,4 +116,9 @@ test_vector.py: 向量测试脚本
 5,词性向量,从a,n的相似词性来看,也似乎更像是一种搭配现象,或许有更好的解释..  
 4,总之,向量性能的好坏,需要在实际的NLP任务中运用检验,这个是后续需要进行的工作.  
 
-If any question about the project or me ,see https://liuhuanyong.github.io/
+# contact 
+如有自然语言处理、知识图谱、事理图谱、社会计算、语言资源建设等问题或合作，请联系我:  
+邮箱:lhy_in_blcu@126.com  
+csdn:https://blog.csdn.net/lhy2014  
+我的自然语言处理项目: https://liuhuanyong.github.io/  
+刘焕勇，中国科学院软件研究所  
